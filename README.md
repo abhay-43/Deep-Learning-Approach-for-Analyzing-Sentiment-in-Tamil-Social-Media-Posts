@@ -6,14 +6,16 @@ This project focuses on political multiclass sentiment analysis of Tamil social 
 ## Dataset
 - **Source**: DravidianLangTech@NAACL 2025 shared task.
 - **Size**: 3,352 training samples and 544 validation samples.
-- **Labels**:
-  - Opinionated
-  - Sarcastic
-  - Neutral
-  - Positive
-  - Substantiated
-  - Negative
-  - None of the above
+
+| Label             | Training Samples | Validation Samples |
+|----------------|-----------------|--------------------|
+| Opinionated   | 1,361                     | 153                           |
+| Sarcastic         | 790                        | 115                           |
+| Neutral            | 637                        | 84                             |
+| Positive            | 575                        | 69                             |
+| Substantiated | 412                        | 52                             |
+| Negative          | 406                        | 51                             |
+| None of the Above | 171                 | 20                             |
 
 ## Preprocessing
 - **Handling Class Imbalance**: Synthetic Minority Over-sampling Technique (SMOTE) is applied.
@@ -21,7 +23,7 @@ This project focuses on political multiclass sentiment analysis of Tamil social 
 - **Vectorization**: Count Vectorizer for traditional models.
 
 ## Models Implemented
-1. **Complement Naive Bayes (CNB)**:
+1. **Complement Naive Bayes (CNB)**: 
    - Adjusts weights using the complement of each class to handle imbalanced datasets.
 
 2. **Voting Classifier** (Ensemble Model):
