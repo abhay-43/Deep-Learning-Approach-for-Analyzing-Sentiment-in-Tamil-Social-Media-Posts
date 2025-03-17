@@ -58,3 +58,5 @@ This project focuses on political multiclass sentiment analysis of Tamil social 
 - Optimize DeBERTa’s computational cost for real-time deployment.
 - Extend the dataset and evaluate performance across different Tamil dialects.
 
+## Research Work
+@inproceedings{abhay2025MNLP, title={MNLP@DravidianLangTech 2025: Transformers vs. Traditional Machine Learning: Analyzing Sentiment in Tamil Social Media Posts}, author={Vishwakarma, Abhay and Kumar, Abhinav}, booktitle={Proceedings of Fifth Workshop on Speech and Language Technologies for Dravidian Languages (NAACL 2025)}, pages={}, year={2025} }
