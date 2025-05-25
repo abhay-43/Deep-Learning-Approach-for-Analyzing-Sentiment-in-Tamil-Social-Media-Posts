@@ -47,6 +47,8 @@ This project focuses on political multiclass sentiment analysis of Tamil social 
 | DeBERTa V3          | 0.2610      | 0.0761         | 0.1499   | 0.0986                |
 | Hybrid (DeBERTa + LSTM) | 0.3162 | 0.3143 | 0.2997 | 0.3026 |
 
+This work secured the 10th position in the DravidianLangTech@NAACL 2025 shared task on Political Sentiment Analysis in Tamil Social Media Posts, highlighting the effectiveness of our hybrid and ensemble-based approaches. [Link to results](https://codalab.lisn.upsaclay.fr/competitions/20702#learn_the_details-results)
+
 ## Conclusion
 - The **Voting Classifier** achieved the best performance due to ensemble learning.
 - **DeBERTa** struggled due to the complexity of the dataset.
